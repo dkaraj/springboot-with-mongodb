@@ -1,0 +1,16 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/db
+  application:
+    name: DB
+
+server:
+  port: 8080
+  servlet:
+    context-path: /presentation/api
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: INFO
